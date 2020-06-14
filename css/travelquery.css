@@ -1,0 +1,178 @@
+
+/* small */
+@media (max-width:767px)
+{
+    
+    .header .carousel-caption
+    {
+        display: none;
+    }
+    
+    .header .carousel-inner .carousel-item img
+{
+    height:470px;
+}
+    
+ .header .navbar-toggler {
+    padding: .35rem .75rem;
+    margin-right:10px;
+    font-size: 1.55rem;
+    line-height: 1;
+    border: 1px solid #E83912;
+        color:#E83912;
+}
+    .header .navbar-toggler:hover {
+background-color: black;
+    }
+    .header .navbar-collapse
+{
+    margin-left:30px;
+}
+    .header .navbar-brand
+{
+    margin-left:0px;
+    font-size:30px;
+}
+.services .head-section,.choose-us .choose-section,.dest .choose-section,.tour .choose-section
+{
+     font-size: 2.4rem;
+}
+
+ .services .p-section,.dest .p-section,.tour .p-section
+{
+    line-height:35px;
+    font-size:15px;
+}
+    
+    
+.dest .imgdest .destpictures
+    {
+        width:300px;
+        height:200px;
+    }
+
+    
+        .choose-us .colimg img
+{
+    height:500px;
+}
+
+
+.choose-us .choose-col .p-choose
+    {
+    font-size:15px;
+}
+    .numbers .colnum 
+{
+    margin-top:40px;
+    border-bottom:1px solid #E83912;
+    border-right:0px;
+    padding-bottom:10px;
+    width:200px;
+    position:relative;
+    left:120px;
+    }
+    
+    .numbers .botcol
+    {
+        border-bottom:none;
+    }
+
+}
+
+
+/* medium */
+@media (min-width:768px) and (max-width:991px)
+{
+    .header .navbar-toggler {
+    padding: .35rem .75rem;
+    margin-right:50px;
+    font-size: 1.55rem;
+    line-height: 1;
+    border: 1px solid #E83912;
+        color:#E83912;
+}
+    .header .navbar-toggler:hover {
+background-color: black;
+    }
+    .header .navbar-collapse
+{
+    margin-left:80px;
+}
+    .header .navbar-brand
+{
+    margin-left:70px;
+    font-size:30px;
+}
+
+    .header .carousel-inner .carousel-item .carousel-caption
+{
+    top:40%;
+}
+
+.header .carousel-inner .carousel-item .carousel-caption .header-p-1 span
+{
+
+font-size:50px; 
+}
+
+.header .carousel-inner .carousel-item .carousel-caption .header-p-1 ,.header .carousel-inner .carousel-item .carousel-caption .header-p-2
+{
+    font-size:17px;
+}
+
+.header .carousel-inner .carousel-item .carousel-caption .btn-header
+{
+    padding: 18px 18px;
+    font-size:15px;
+    width:190px;
+}
+    .header .navbar-expand-lg .navbar-nav .nav-item .nav-link
+{
+    font-size:16px;
+}
+     .header .navbar-expand-lg .navbar-nav .nav-item .nav-link:hover
+{
+    font-size:20px;
+}
+     .choose-us .colimg img
+{
+    height:550px;
+}
+
+}
+
+/* large */
+@media (min-width:992px) and (max-width:1199px)
+{
+    .header .navbar-brand
+{
+    margin-left:50px;
+}
+   .header .navbar-nav
+{
+    margin-right:50px;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-item .nav-link
+{
+    padding-left: 1rem;
+}
+.header .carousel-inner .carousel-item .carousel-caption .header-p-1 span
+{
+
+font-size:66px; 
+}
+
+.header .carousel-inner .carousel-item .carousel-caption .header-p-1 ,.header .carousel-inner .carousel-item .carousel-caption .header-p-2
+{
+    font-size:18px;
+}
+ 
+}
+
+/* Default:: xlarge */
+@media (min-width:1200px) 
+{
+    
+}
